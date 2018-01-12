@@ -1,0 +1,42 @@
+    // Floating scroll bar styles
+    .float-bar {
+      display: none;
+
+      @include breakpoint (small) {
+        display: block;
+        position: fixed;
+        bottom: 40vh;
+        right: 20px;
+        z-index: 1;
+        float: right;
+      }
+
+
+
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+      }
+
+      li {
+        text-decoration: none;
+        display: block;
+        width: 12px;
+        height: 12px;
+        margin: 10px;
+        background-color: #fff;
+        color: $subHeaderColor;
+        border-radius: 50px;
+        border: 2px solid $subHeaderColor;
+
+        &:hover {
+          background-color: $subHeaderColor;
+        }
+
+        &:active {
+          background-color: $subHeaderColor;
+          border: 2px solid $subHeaderColor;
+        }
+      }
+    }

@@ -1,0 +1,21 @@
+@font-face {
+  font-family: PlutoSansLight;
+  src:url('../fonts/pluto-sans/PlutoSansLight.otf')
+}
+
+@font-face {
+  font-family: PlutoSansBold;
+  src:url('../fonts/pluto-sans/PlutoSansBold.otf')
+}
+
+@font-face {
+  font-family: dk-lemon-yellow-sun;
+  src:url('../fonts/dk-lemon/dk-lemon-yellow-sun.otf')
+}
+
+$headingFont: dk-lemon-yellow-sun;
+$bodyFontBold: PlutoSansBold;
+$bodyFontLight: PlutoSansLight;
+
+
+$subHeaderColor: #5AC3BE;
